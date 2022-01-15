@@ -6,12 +6,12 @@ body {
 .container {
     max-width: 100%;
     background-color: white;
-    padding: 60px;
+    padding: 50px;
 }
 .container-product {
     max-width: 100%;
     background-color: white;
-    padding: 60px;
+    padding: 50px;
 }
 /* top part  */
 .text-area {
@@ -129,6 +129,7 @@ body {
 }
  .thumbnail { 
     width: 50%;
+    padding-right: 30px;
 }
 .blog {
     width: 50%;
@@ -195,7 +196,6 @@ body {
         padding: 20px;
     }
     .text-area h3 {
-        width: 165px;
         text-align: center;
         font-size: 16px;
         font-weight: 700;
