@@ -43,6 +43,10 @@ body {
     height: 24px;
     margin-left: 8px;
 }
+.link-button:hover .fa-arrow-right {
+    transform: scale(1.2);
+    transition: 0.2s ease-in;
+}
 /* product area  */
 .section-title {
     text-align: center;
@@ -108,4 +112,76 @@ body {
 }
 .link .fa-arrow-right {
     margin-left: 8px;
+}
+
+/* bonus area  */
+.bonus-area {
+    margin-top: -30px;
+}
+.bonus-part {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .thumbnail { 
+    width: 50%;
+    padding-right: 50px;
+}
+.blog {
+    width: 50%;
+    padding-left: 100px;
+} 
+.blog h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+.blog p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5e6366;
+    margin-bottom: 30px;
+}
+
+/* footer area */
+
+.footer-area {
+  background-color: rgb(10, 8, 38); 
+  color: #FFFFFF;
+  padding: 35px 180px;
+  text-align: center;
+}
+.footer-area h2 {
+    font-size: 1.7em;
+    font-weight: 600; 
+    margin-bottom: 0;
+}
+.footer-area p {
+    color: #d9dbe1;
+    font-size: 0.95em;
+    margin-top: 11px;
+    margin-bottom: 0;
+}
+.footer-area .social-icon {
+    margin-top: 20px;
+    margin-bottom: 15px ;
+    text-align: center;
+}
+.social-icon .fab {
+  background-color: #22213c;
+  color: white;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+ 
+/* responsive area  */
+/* mobile device */
+
+@media  only screen and (max-width: 668px) {
+    
 }
